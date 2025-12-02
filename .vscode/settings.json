@@ -1,0 +1,7 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+  "jupyter.jupyterServerType": "local",
+  "editor.rulers": [
+    88
+  ]
+}

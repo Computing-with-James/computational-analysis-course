@@ -1,0 +1,15 @@
+format: jb-book
+root: content/index
+chapters:
+  - file: content/getting_started
+  - file: content/syllabus
+  - file: content/notebooks_overview
+  - file: content/labs
+    sections:
+      - file: notebooks/01_python_basics
+      - file: notebooks/02_numpy_linear_algebra
+      - file: notebooks/03_pandas_data_analysis
+      - file: notebooks/04_matplotlib_visualization
+      - file: notebooks/05_optimization_gradient_descent
+      - file: notebooks/06_cfd_1d_heat_equation
+      - file: notebooks/07_ml_linear_regression_sklearn

@@ -1,0 +1,15 @@
+
+title: Computational Analysis (Undergraduate)
+author: Course Team
+logo: ""
+only_build_toc_files: true
+execute:
+  execute_notebooks: 'off'
+repository:
+  url: https://github.com/YOUR-USER/your-repo
+  branch: main
+  path_to_book: book
+html:
+  use_repository_button: true
+  use_issues_button: true
+  home_page_in_navbar: true
