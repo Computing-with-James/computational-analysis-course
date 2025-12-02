@@ -1,9 +1,11 @@
-
 name: Deploy Jupyter Book
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
+
+permissions:
+  contents: write   # <<< allow pushing to gh-pages
 
 jobs:
   build-deploy:
@@ -29,3 +31,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./book/_build/html
           publish_branch: gh-pages
+          force_orphan: true
