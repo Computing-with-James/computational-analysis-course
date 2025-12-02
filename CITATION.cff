@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: Computational Analysis (Undergraduate)
+authors:
+  - family-names: Afful
+    given-names: James
+    orcid: "https://orcid.org/0000-0001-6967-1740"
+date-released: 2025-12-02
+version: "1.0.0"
+message: "If you use this course, please cite it."
+repository-code: "https://github.com/Computing-with-James/computational-analysis-course"
